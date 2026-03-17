@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuyển Sinh Đại Học - Nguyễn Thị Thảo Uyên</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            margin: 0; padding: 0; 
+            background: linear-gradient(135deg, #e0f7fa, #b2ebf2, #80deea); 
+            color: #006064; min-height: 100vh;
+        }
+        header { background: linear-gradient(to right, #26c6da, #0097a7); color: white; padding: 85px 20px; text-align: center; box-shadow: 0 12px 40px rgba(0,150,167,0.4); }
+        nav { background: rgba(0,150,167,0.6); overflow: hidden; position: sticky; top: 0; z-index: 100; }
+        nav a { float: left; color: white; text-align: center; padding: 22px 35px; text-decoration: none; font-weight: 700; position: relative; transition: all 0.5s; }
+        nav a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 3px; background: #b2ebf2; transition: width 0.4s; }
+        nav a:hover::after { width: 100%; }
+        nav a:hover { transform: translateY(-3px); }
+        section { padding: 100px 20px; max-width: 1100px; margin: 0 auto; }
+        .card { background: rgba(255,255,255,0.9); border-radius: 25px; padding: 65px; box-shadow: 0 18px 50px rgba(0,150,167,0.3); border: 1px solid #80deea; position: relative; overflow: hidden; animation: waveIn 2.5s ease-in-out; }
+        .card::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(128,222,234,0.2) 0%, transparent 70%); transition: all 0.8s; opacity: 0; }
+        .card:hover::before { opacity: 1; transform: scale(1.2); }
+        .image-container { text-align: center; margin-bottom: 50px; }
+        img { max-width: 100%; border-radius: 20px; box-shadow: 0 12px 40px rgba(0,0,0,0.2); width: 580px; transition: transform 0.6s; }
+        img:hover { transform: scale(1.05); }
+        ul { list-style: none; padding: 0; }
+        ul li { background: #e0f7fa; margin: 25px 0; padding: 28px; border-radius: 18px; border-left: 8px solid #26c6da; transition: all 0.5s; position: relative; }
+        ul li:hover { background: #b2ebf2; transform: translateX(12px); }
+        ul li::before { content: "🌊"; position: absolute; left: 15px; top: 28px; font-size: 2.2em; color: #0097a7; }
+        footer { background: rgba(0,150,167,0.8); color: white; text-align: center; padding: 30px; margin-top: 100px; }
+    </style>
+</head>
+<body>
+    <header><h1>Tuyển Sinh Đại Học 2026 - Điểm Mới Quan Trọng! 🌊📚</h1></header>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="admissions.html">Tuyển sinh đại học</a>
+    </nav>
+    <section>
+        <div class="card">
+            <h2>Các Điểm Mới Kỳ Thi THPT & Tuyển Sinh 2026</h2>
+            
+            <div class="image-container">
+                <img src="https://cdn2.tuoitre.vn/thumb_w/480/471584752817336320/2026/3/5/9038-1772684095286674940378.jpg">
+            </div>
+            
+            <p>Dựa trên quy chế mới nhất từ Bộ GD&ĐT:</p>
+            <ul>
+                <li><strong>Ngưỡng sàn xét tuyển đại học:</strong> Tổng điểm 3 môn thi THPT ≥ 15/30 theo tổ hợp (hoặc Toán + Văn + 1 môn). Toán thường chiếm khoảng 1/3 tổng điểm trong nhiều tổ hợp – môn quan trọng lắm nha!</li>
+                <li>Giấy báo dự thi gộp chung, tiện lợi hơn.</li>
+                <li>Giấy chứng nhận tốt nghiệp tạm thời + kết quả thi gộp thành một loại.</li>
+                <li>Thời gian phúc khảo rút ngắn, thông báo nhanh để xét tuyển kịp.</li>
+                <li>Điều chỉnh thanh tra phù hợp mô hình mới.</li>
+                <li>Số nguyện vọng tối đa khoảng 15, phương thức xét tuyển tối đa 5 (không tính xét thẳng).</li>
+                <li>Nhiều trường kết hợp điểm THPT + ĐGNL + học bạ + chứng chỉ ngoại ngữ (IELTS quy đổi chặt chẽ hơn).</li>
+            </ul>
+            <p>Cố lên các bạn 12! Mình cũng đang "lướt sóng" ôn thi đây, cùng nhau đạt điểm cao để vào đại học mơ ước nha! 🌊💙</p>
+        </div>
+    </section>
+    <footer><p>© 2026 Nguyễn Thị Thảo Uyên - Flow like the ocean... 🌊</p></footer>
+</body>
+</html>
